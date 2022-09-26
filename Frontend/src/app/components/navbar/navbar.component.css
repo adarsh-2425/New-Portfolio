@@ -1,0 +1,14 @@
+.navbar{
+    padding: 1em;
+}
+
+.fa-solid{
+    color: white;
+    margin-left: 13em;
+    
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}

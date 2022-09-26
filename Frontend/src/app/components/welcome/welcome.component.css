@@ -38,6 +38,10 @@ body{
     transition: 0.2s ease-in-out;
 }
 
+.fa-solid{
+    margin-left: 0.5em;
+}
+
 
 
 
