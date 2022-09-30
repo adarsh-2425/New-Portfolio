@@ -1,5 +1,7 @@
 .navbar{
     padding: 1em;
+    padding-bottom: 12px;
+    background-color: red;
 }
 
 .fa-solid{
@@ -9,6 +11,9 @@
 }
 
 .navbar-toggler:focus {
+    /* 
+    https://stackoverflow.com/questions/50668594/remove-border-color-for-navbar-toggler-hamburger-icon-in-bootstrap-using-css
+     */
     outline: none;
     box-shadow: none;
 }

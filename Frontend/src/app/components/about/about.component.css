@@ -1,0 +1,33 @@
+.column{
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+h3{
+    font-family: 'Cantarell', sans-serif;
+    padding: 0.4em;
+}
+
+.about{
+    text-align: center;
+    margin: 2em;
+    text-decoration: underline;
+    text-underline-offset: 1rem;   
+    font-family: 'Cantarell', sans-serif;
+}
+
+.icon {
+    color: rgb(37, 164, 223);
+    padding: 1em;
+  }
+
+.fa-shuttle-space{
+    transform: rotate(320deg);
+}
+
+/* @media only screen and (max-width: 600px) {
+    .column p{
+        font-size: 0.7em;
+    }
+  } */
