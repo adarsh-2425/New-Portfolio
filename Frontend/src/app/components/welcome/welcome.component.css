@@ -183,6 +183,10 @@ body{
     transform: rotate(90deg);
 }
 
+a{
+    text-decoration: none;
+}
+
 /* for mobiles */
 @media only screen and (max-width: 600px) {
     .button-work{

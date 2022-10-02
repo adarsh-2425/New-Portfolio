@@ -49,6 +49,19 @@ h3{
 
 }
 
+.me{
+    padding-top: 2em;
+    text-align: center;
+}
+
+.me .whoname{
+    font-size:xx-large;
+}
+
+.makelink{
+    text-decoration: none;
+}
+
 /* @media only screen and (max-width: 600px) {
     .column p{
         font-size: 0.7em;
