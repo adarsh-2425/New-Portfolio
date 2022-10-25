@@ -1,5 +1,5 @@
 <!-- welcome -->
-<div class="context">
+<div class="context" id="welcome">
     <h1>Hello, I'm <span id="name">Adarsh S</span>.</h1>
     <h1> I'm a Full-Stack Web Developer. </h1>
 
@@ -8,7 +8,7 @@
 
 <div class="area" >
         <ul class="circles">
-<a href="#about"><button  class="button-work" >View My Work  
+<a href ="#navbar"><button  class="button-work" >View My Work  
         <i class="fa-solid fa-arrow-down fa-bounce" ></i>
 </button></a> 
 
@@ -25,107 +25,15 @@
         </ul>
 </div >
 
-<!-- navbar -->
-<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" >
-        <!-- Container wrapper -->
-        <div class="container-fluid">
-          <!-- Toggle button -->
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-mdb-toggle="collapse"
-            data-mdb-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i class="fa-solid fa-bars fa-xl fa-flip"></i>
-          </button>
-      
-          <!-- Collapsible wrapper -->
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <!-- Left links -->
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" routerLink="">HOME</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" routerLink="about" routerLinkActive="active">ABOUT</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" routerLink="portfolio">PORTFOLIO</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">TESTIMONIALS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
-              </li>
-       
-            </ul>
-            <!-- Left links -->
-          </div>
-          <!-- Collapsible wrapper -->
-        </div>
-        <!-- Container wrapper -->
-      </nav>
+<section id="navbar">
+  <app-contact></app-contact>
+</section>
 
-<!-- about -->
-<div id="about" class="container">
+<!-- <section id="route">
+  <router-outlet></router-outlet>
+</section> -->
 
-        <div @fade class="about">
-            <h1>ABOUT</h1>
-           
-        </div>
-    
-       <div @slideInOut class="column">
-            <div class="row">
-              <div class="col">
-                <div class="icon">
-                    <i class="fa-sharp fa-solid fa-gauge-high fa-5x" ></i>
-                </div>
-                <h3>Fast</h3>
-                <p>Fast load times and lag free interaction, my highest priority.
-                </p>
-            </div>
-            <br>
-            <br>
-              <div class="col">
-                <div class="icon">
-                    <i class="fa-solid fa-lightbulb fa-5x"></i>
-                </div>
-                <h3>Intuitive</h3>
-                <p>Strong preference for easy to use, intuitive UX/UI.
-                </p>
-              </div>
-              <div class="w-100"></div>
-              <div class="col">
-                <div class="icon">
-                    <i class="fa-solid fa-laptop-code fa-5x"></i>
-                </div>
-                <h3>Responsive</h3>
-                <p>My layouts will work on any device, big or small.
-                </p>
-              </div>
-              <div class="col">
-                <div class="icon">
-                    <i class="fa-solid fa-shuttle-space fa-5x"></i>
-                </div>
-                <h3>Dynamic</h3>
-                <p>Websites don't have to be static, I love making pages come to life.
-                </p>
-              </div>
-            </div>
-        </div>
-    
-        <div class="me">
-            <h3 class="whoname">Who Am I?</h3>
-            <p>
-                I'm an aspiring Full-Stack Web Developer from Kerala, IN. <br>
-              I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.<br>
-              <a class="makelink" href="">Let's make something special.</a> 
-            </p>
-        </div>
-    
-    </div>
+
+
+
     

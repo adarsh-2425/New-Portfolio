@@ -196,3 +196,78 @@ a{
         font-size: 1.5em;
     }
   }
+
+  /* NAVBAR */
+
+  
+
+  /* ABOUT */
+  .column{
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+h3{
+    font-family: 'Cantarell', sans-serif;
+    padding: 0.4em;
+}
+
+.about{
+    text-align: center;
+    margin: 2em;
+    text-decoration: underline;
+    text-underline-offset: 1rem;   
+    font-family: 'Cantarell', sans-serif;
+}
+
+.icon {
+    color: rgb(37, 164, 223);
+    padding: 1em;
+  }
+
+.fa-shuttle-space{
+    transform: rotate(320deg);
+}
+
+.fa-shuttle-space:hover{
+    transform: rotate(300deg);
+    transition: all ease-in-out;
+
+}
+
+.fa-lightbulb:hover{
+    transition: all ease-in-out;
+    color: orange;
+}
+
+.fa-laptop-code:hover{
+    transform: translateX(25%);
+    color: royalblue;
+    transition: all ease-in-out;
+}
+
+.fa-gauge-high:hover{
+    transform: rotate(30deg);
+    transition: all ease-in-out;
+
+}
+
+.me{
+    padding-top: 2em;
+    text-align: center;
+}
+
+.me .whoname{
+    font-size:xx-large;
+}
+
+.makelink{
+    text-decoration: none;
+}
+
+/* @media only screen and (max-width: 600px) {
+    .column p{
+        font-size: 0.7em;
+    }
+  } */
