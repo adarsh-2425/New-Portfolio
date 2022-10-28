@@ -65,19 +65,27 @@ h3{
     text-decoration: none;
 }
 
-.progress-bar{
-  width: 70%;
-}
+
   img{
     border-radius: 50%;
   }
-.skill{
-  padding-top: 4em;
-  padding: 2em;
-}
-.skills{
-  padding: 0.4em;
-}
+
+  #technical{
+    text-align: center;
+  }
+
+  .skills{
+    text-align: center;
+    padding: 2em;
+    padding-top: 7em;
+  }
+
+  .personalskills{
+    padding: 2em;;
+  }
+ .resumebutton{
+    margin: 1em;
+  }
 /* @media only screen and (max-width: 600px) {
     .column p{
         font-size: 0.7em;
