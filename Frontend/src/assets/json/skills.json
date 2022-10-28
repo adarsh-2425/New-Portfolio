@@ -1,0 +1,53 @@
+﻿
+[  
+  {  
+    "id": 1,  
+    "name": "MongoDB",  
+    "percentage": 90 
+  },  
+  {  
+    "id": 2,  
+    "name": "ExpressJS",  
+    "percentage": 85 
+  },
+  {  
+    "id": 3,  
+    "name": "NodeJS",  
+    "percentage": 90  
+  },
+  {  
+    "id": 4,  
+    "name": "Angular",  
+    "percentage": 90  
+  },
+{  
+    "id": 5,  
+    "name": "Mongoose",  
+    "percentage": 85  
+  },
+{  
+    "id": 6,  
+    "name": "REST APIs",  
+    "percentage": 85  
+  },
+{  
+    "id": 7,  
+    "name": "HTML5",  
+    "percentage": 90  
+  },
+{  
+    "id": 8,  
+    "name": "CSS3",  
+    "percentage": 80  
+  },
+{  
+    "id": 9,  
+    "name": "JavaScript ES6",  
+    "percentage": 85  
+  },
+{  
+    "id": 10,  
+    "name": "Git",  
+    "percentage": 85  
+  }
+]  

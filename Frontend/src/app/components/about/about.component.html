@@ -44,14 +44,35 @@
           </div>
         </div>
     </div>
+<div class="row">
+  <div class="col-sm-12 col-md-6 col-lg-6">
+    <div @slideInOut @fade class="me">
+     
+                <img src="../../../assets/images/me 1 (1).jpg" alt="" width="320" height="313" />
 
-    <div class="me">
         <h3 class="whoname">Who Am I?</h3>
         <p>
             I'm an aspiring Full-Stack Web Developer from Kerala, IN. <br>
           I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.<br>
           <a class="makelink" href="">Let's make something special.</a> 
         </p>
+        <button class="btn btn-success">
+        <a href="https://drive.google.com/file/d/1nvUfEoGj0YtLl7ErcL1X80HND08UYiR4/view?usp=sharing" target="_blank"></a>
+        View Resume
+        </button>
     </div>
-
+    </div>
+    <div class="skill col-sm-12 col-md-6 col-lg-6" >
+      <!-- https://www.javatpoint.com/display-data-from-json-file-in-angular -->
+      <div class="skills" *ngFor="let skills of skills">
+      <h6>{{skills.name}}</h6>
+      <div  class="progress">
+        <!-- https://stackoverflow.com/questions/47662772/it-is-possible-to-add-values-to-an-inline-style-using-interpolation-in-angular-4 -->
+      <div @slideInOut class="progress-bar"  role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" [ngStyle]="{ 'width': skills.percentage+ '%' }">
+        <span class="sr-only">{{skills.percentage}} Complete</span>
+      </div>
+      </div>
+    </div>
+    </div>
+     </div>
 </div>
