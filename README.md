@@ -1,27 +1,26 @@
 # Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.6.
+Deploying using angular-cli-ghpages
+Inside the sample folder, add the angular-cli-ghpages package using the following command:
 
-## Development server
+ng add angular-cli-ghpages
+Now, we can proceed to deploy.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+The deploy command is simple, and we must add a base-href argument with the name of the repository in it:
 
-## Code scaffolding
+ng deploy --base-href=/angular-app/
+Here, the deploy command does all the work. We don’t have to manually build or commit those files.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Once this command finishes running, check the files in the repository using:
 
-## Build
+https://github.com/<username>/<repositoryname>
+We can see the hosted corresponding site at the following link:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+https://<username>.github.io/<repositoryname>
+The <username> refers to our GitHub username and <repositoryname> refers to the name of the repository created on GitHub.
 
-## Running unit tests
+Looking carefully at the files committed to the repository, we can say that only the output contents are committed to the repository instead of the whole application. So, this will use the root folder to get the files that can be hosted.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Link
+https://www.syncfusion.com/blogs/post/easy-steps-to-host-an-angular-app-in-github-pages.aspx
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
