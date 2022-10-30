@@ -8,7 +8,11 @@ import { ContactComponent } from './components/contact/contact.component'
 
 
 const routes: Routes = [
-{path : '' , component : WelcomeComponent},
+  { path: '', 
+  children: [
+    { path: '', redirectTo: 'landing-section', pathMatch: 'full' },
+    { path: 'landing-section', component: WelcomeComponent}
+  ]},
 {path : 'navbar' , component : NavbarComponent},
 {path : 'about' , component : AboutComponent},
 {path : 'portfolio' , component : PortfolioComponent}
