@@ -8,6 +8,9 @@ h1{
     margin: 1em;
    
 }
+.card:hover{
+    background-color: rgba(169, 238, 238, 0.226);
+}
 a{
     text-decoration: none;
 }
