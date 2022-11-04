@@ -8,7 +8,7 @@ Now, we can proceed to deploy.
 
 The deploy command is simple, and we must add a base-href argument with the name of the repository in it:
 
-ng deploy --base-href=/angular-app/
+ng deploy --base-href=/New-Portfolio/
 Here, the deploy command does all the work. We don’t have to manually build or commit those files.
 
 Once this command finishes running, check the files in the repository using:

@@ -24,5 +24,6 @@ skills: Skills[] = skills;
 
   ngOnInit(): void {
   }
+  
 
 }

@@ -1,6 +1,11 @@
-/* .container{
-    padding-top: 3em;
-} */
+.container{
+  margin-bottom: 2em;
+}
+.aboutmetext{
+  line-height: 1.8;
+  word-spacing: 1px;
+}
+
 .column{
     text-align: center;
     font-family: sans-serif;
@@ -61,8 +66,17 @@ h3{
     font-size:xx-large;
 }
 
-.makelink{
+a{
     text-decoration: none;
+}
+.linkbutton{
+  padding: 10px 24px;
+  border-radius: 12px;
+  background-color: green;
+}
+.linkbuttonmargin{
+  margin-top: 2em;
+
 }
 
 
@@ -83,9 +97,7 @@ h3{
   .personalskills{
     padding: 2em;;
   }
- .resumebutton{
-    margin: 1em;
-  }
+ 
   #technical{
     text-align: center;
   }
@@ -94,3 +106,4 @@ h3{
         font-size: 0.7em;
     }
   } */
+  
