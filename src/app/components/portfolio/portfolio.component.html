@@ -1,70 +1,72 @@
 <app-navbar></app-navbar>
 <div class="container">
-    <h1>PROJECTS</h1>
-      <div class="row" @slideInOut @fade>
-      <div class="col-lg-4 mb-4 d-flex align-items-stretch">
-      <div class="card">
-        <img class="card-img-top img-fluid img-thumbnail" src="assets/images/home.PNG" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Content Management System</h5>
-          <p class="card-text">Developed a MEAN Stack Application with Different User Flows</p>
-          <mat-chip-list>
-            <mat-chip selected color="accent">MEAN Stack</mat-chip>
-            <mat-chip selected color="accent">HTML5</mat-chip>
-            <mat-chip selected color="accent">CSS3</mat-chip>
-            <mat-chip selected color="accent">JavaScript ES6</mat-chip>
-          </mat-chip-list>
-          <a class="stretched-link" target="_blank" href="https://blog-2425.herokuapp.com/"></a>
-        </div>
-      </div>
-      </div>
-      <div class="col-lg-4 mb-4 d-flex align-items-stretch">
-        <div class="card">
-          <img class="card-img-top" src="assets/images/Screenshot (296).png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Weather App</h5>
-            <mat-chip-list>
-              <mat-chip selected color="accent">HTML5</mat-chip>
-              <mat-chip selected color="accent">CSS3</mat-chip>
-              <mat-chip selected color="accent">JavaScript ES6</mat-chip>
-              <mat-chip selected color="accent">REST API</mat-chip>
-            </mat-chip-list>
-            <a class="stretched-link" target="_blank" href="https://adarsh-2425.github.io/Weather-App/"></a>
-          </div>
-        </div>
-      </div>
-        <div class="col-lg-4 mb-4 d-flex align-items-stretch">
-        <div class="card ">
-          <img class="card-img-top" src="assets/images/quote.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Quotes Generator</h5>
-            <mat-chip-list>
-              <mat-chip selected color="accent">HTML5</mat-chip>
-              <mat-chip selected color="accent">CSS3</mat-chip>
-              <mat-chip selected color="accent">JavaScript ES6</mat-chip>
-              <mat-chip selected color="accent">REST API</mat-chip>
-            </mat-chip-list>
-            <a class="stretched-link" target="_blank" href="https://adarsh-2425.github.io/Quotes-Generator/"></a>
-          </div>
-        </div>
-      </div>
-        <div class="col-lg-4 mb-4 d-flex align-items-stretch">
-        <div class="card ">
-          <img class="card-img-top" src="assets/images/nasa.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Astronomy Picture of the Day</h5>
-            <mat-chip-list>
-              <mat-chip selected color="accent">HTML5</mat-chip>
-              <mat-chip selected color="accent">CSS3</mat-chip>
-              <mat-chip selected color="accent">JavaScript ES6</mat-chip>
-              <mat-chip selected color="accent">REST API</mat-chip>
-            </mat-chip-list>
-            <a class="stretched-link" target="_blank" href="https://adarsh-2425.github.io/Astronomy-Picture-of-the-Day/"></a>
-          </div>
-        </div>
+   
+<div class="content">
+  <h1 class="heading">MEAN Stack Projects</h1>
+
+  <a class="card border-0" (click)="openproject1()">
+    <div class="front" style="background-image: url(https://www.skoolbeep.com/blog/wp-content/uploads/2020/12/WHAT-IS-THE-PURPOSE-OF-A-LIBRARY-MANAGEMENT-SYSTEM-min.png)">
+    </div>
+    <div class="back">
+      <div>
+        <h3 class="fw-bold">Library Management System</h3>
+        <p>A Library Management System is a Full Stack Web Application built to handle the primary housekeeping functions of a library. </p>
+          <button class="button">LEARN MORE</button>
+
       </div>
     </div>
+  </a>
 
+  <a class="card border-0" (click)="openproject2()">
+    <div class="front" style="background-image: url(https://www.bizzmine.com/images/rsca/500x350/images/articles/intro-images/Training_Management_with_BizzMine.png)">
+    </div>
+    <div class="back">
+      <div>
+        <h3 class="fw-bold" >Course Management Web Application</h3>
+
+        <p>The objective of this project is to develop an application for management of courses taken by students, which includes a flow for students, a flow for teachers and a bulk notification feature.</p>
+                <button class="button">LEARN MORE</button>
+
+      </div>
+    </div></a>
+
+  <a class="card border-0" (click)="openproject3()">
+    <div class="front" style="background-image: url(https://kinsta.com/wp-content/uploads/2018/03/content-management-system-2.png)">
+      <!-- <p>Content Management System</p> -->
+    </div>
+    <div class="back "t>
+      <div>
+        <h3 class="fw-bold" >Content Management System</h3>
+        <p>MEAN Stack Application with Different User Flows</p>
+        <button class="button">LEARN MORE</button>
+      </div>
+    </div></a>
+    
+    <a class="card border-0" (click)="openproject4()">
+    <div class="front" style="background-image: url(https://image.winudf.com/v2/image1/Y29tLnBhdmlsaW9ubGFiLndlYXRoZXIuZm9yZWNhc3QubGl2ZS53aWRnZXRfc2NyZWVuXzBfMTYwMzk1ODIzMV8wNjQ/screen-0.jpg?fakeurl=1&type=.webp);">
+    </div>
+    <div class="back">
+      <div>
+        <h3 class="fw-bold" >Weather App</h3>
+                <button class="button">LEARN MORE</button>
+
+      </div>
+    </div></a>
+    
+    <a class="card border-0" (click)="openproject5()">
+    <div class="front" style="background-image: url(//source.unsplash.com/UkFM78eg9tM/300x403)">
+    </div>
+    <div class="back">
+      <div>
+        <h3 class="fw-bold" >Quotes Generator</h3>
+                <button class="button">LEARN MORE</button>
+
+      </div>
+    </div></a>
+    
+       
+    
+</div>
     <!-- Floating Button -->
 <div class="flBtn flBtn-position-br flBtn-size-medium">
 	<input type="checkbox">
@@ -81,3 +83,5 @@
 </div>
 
     </div>
+
+    

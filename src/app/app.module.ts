@@ -16,6 +16,11 @@ import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
 import {MatSelectModule} from '@angular/material/select';
 import {MatChipsModule} from '@angular/material/chips';
+import { ProjectsComponent } from './dialogs/projects/projects.component';
+import { Project2Component } from './dialogs/project2/project2.component';
+import { Project3Component } from './dialogs/project3/project3.component';
+import { Project4Component } from './dialogs/project4/project4.component';
+import { Project5Component } from './dialogs/project5/project5.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +28,12 @@ import {MatChipsModule} from '@angular/material/chips';
     NavbarComponent,
     AboutComponent,
     PortfolioComponent,
-    ContactComponent
+    ContactComponent,
+    ProjectsComponent,
+    Project2Component,
+    Project3Component,
+    Project4Component,
+    Project5Component
   ],
   imports: [
     BrowserModule,
@@ -36,7 +46,7 @@ import {MatChipsModule} from '@angular/material/chips';
     MatFormFieldModule,
     MatChipsModule
   ],
-  providers: [],
+  providers: [ProjectsComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

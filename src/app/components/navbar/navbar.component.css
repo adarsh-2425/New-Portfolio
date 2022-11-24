@@ -1,17 +1,22 @@
-/* .navbar{
-    padding: 1em;
-    padding-bottom: 12px;
-    background-color: red;
+.navbar{
+    background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+
 }
 
-.fa-solid{
-    color: white;
-    margin-left: 13em;
-    
+.nav-link{
+    font-size: 1.5em;
+    color: black;
+    font-family: 'Cantarell', sans-serif;
+    transition: color 0.5s ease-in;
+    margin-left: 0.7em;
+
+}
+.nav-link:hover{
+    color:white
 }
 
-.navbar-toggler:focus {
-    /* 
-    https://stackoverflow.com/questions/50668594/remove-border-color-for-navbar-toggler-hamburger-icon-in-bootstrap-using-css
-     */
-  
+@media screen and (max-width: 600px) {
+    .nav-link{
+        font-size:1em;
+    }
+}

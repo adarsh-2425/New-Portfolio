@@ -5,6 +5,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
 import { ContactComponent } from './components/contact/contact.component'
+import { ProjectsComponent } from './dialogs/projects/projects.component';
 
 
 const routes: Routes = [
@@ -15,7 +16,8 @@ const routes: Routes = [
   ]},
 {path : 'navbar' , component : NavbarComponent},
 {path : 'about' , component : AboutComponent},
-{path : 'portfolio' , component : PortfolioComponent}
+{path : 'portfolio' , component : PortfolioComponent},
+{path : 'project', component: ProjectsComponent}
 
 ];
 
